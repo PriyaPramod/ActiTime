@@ -1,0 +1,53 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "test_scripts.test_sample",
+    "children" : [ {
+      "name" : "test_script_one[Firefox]",
+      "uid" : "9b9f39cd70beb4db",
+      "parentUid" : "a79e142673ad19b468648166b1ad55f4",
+      "status" : "broken",
+      "time" : { },
+      "flaky" : true,
+      "parameters" : [ "'Firefox'" ]
+    }, {
+      "name" : "test_script_two",
+      "uid" : "5df7b4e19c002e1e",
+      "parentUid" : "a79e142673ad19b468648166b1ad55f4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1550258394610,
+        "stop" : 1550258395595,
+        "duration" : 985
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_script_one",
+      "uid" : "36a3f853850af494",
+      "parentUid" : "a79e142673ad19b468648166b1ad55f4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1550258394954,
+        "stop" : 1550258396155,
+        "duration" : 1201
+      },
+      "flaky" : true,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_script_one[Chrome]",
+      "uid" : "c8e6a9e08b4111f7",
+      "parentUid" : "a79e142673ad19b468648166b1ad55f4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1550259274307,
+        "stop" : 1550259275331,
+        "duration" : 1024
+      },
+      "flaky" : false,
+      "parameters" : [ "'Chrome'" ]
+    } ],
+    "uid" : "test_scripts.test_sample"
+  } ]
+}

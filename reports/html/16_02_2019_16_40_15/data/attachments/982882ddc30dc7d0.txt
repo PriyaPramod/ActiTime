@@ -1,0 +1,3 @@
+Entered the value:  admin
+Entered the value:  manager
+Returning the text from the web element:  actiTIME 2019.1 Pro

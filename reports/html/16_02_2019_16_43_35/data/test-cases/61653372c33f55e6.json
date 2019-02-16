@@ -1,0 +1,184 @@
+{
+  "uid" : "61653372c33f55e6",
+  "name" : "test_TC001_valid_login_test[Firefox]",
+  "fullName" : "test_scripts.test_invalid_login#test_TC001_valid_login_test[Firefox]",
+  "historyId" : "8b77fc4352c3af13ce88eeb81b383819",
+  "time" : {
+    "start" : 1550315319449,
+    "stop" : 1550315333040,
+    "duration" : 13591
+  },
+  "status" : "passed",
+  "flaky" : true,
+  "beforeStages" : [ {
+    "name" : "configuration",
+    "time" : {
+      "start" : 1550315195891,
+      "stop" : 1550315319446,
+      "duration" : 123555
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "enter_username",
+      "time" : {
+        "start" : 1550315319540,
+        "stop" : 1550315322001,
+        "duration" : 2461
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user_name",
+        "value" : "'invaliduser'"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "enter_password",
+      "time" : {
+        "start" : 1550315322002,
+        "stop" : 1550315323074,
+        "duration" : 1072
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "password",
+        "value" : "'invalidpass'"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "click_login_button",
+      "time" : {
+        "start" : 1550315323074,
+        "stop" : 1550315325397,
+        "duration" : 2323
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "get_error_message",
+      "time" : {
+        "start" : 1550315325397,
+        "stop" : 1550315333039,
+        "duration" : 7642
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "b3f87d952cbdfcba",
+      "name" : "log",
+      "source" : "b3f87d952cbdfcba.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "c826b50da4a89a1e",
+      "name" : "stdout",
+      "source" : "c826b50da4a89a1e.txt",
+      "type" : "text/plain",
+      "size" : 157
+    }, {
+      "uid" : "632f898f419bc2bd",
+      "name" : "stderr",
+      "source" : "632f898f419bc2bd.txt",
+      "type" : "text/plain",
+      "size" : 0
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 3
+  },
+  "afterStages" : [ {
+    "name" : "configuration::0",
+    "time" : {
+      "start" : 1550315333042,
+      "stop" : 1550315342945,
+      "duration" : 9903
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "test_scripts"
+  }, {
+    "name" : "suite",
+    "value" : "test_invalid_login"
+  }, {
+    "name" : "host",
+    "value" : "TY-Pramod-Personal"
+  }, {
+    "name" : "thread",
+    "value" : "6484-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_scripts.test_invalid_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "configuration",
+    "value" : "'Firefox'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "4b4293f742addd6a",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'SubRequest' object has no attribute 'params'",
+      "time" : { }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "61653372c33f55e6.json",
+  "parameterValues" : [ "'Firefox'" ]
+}

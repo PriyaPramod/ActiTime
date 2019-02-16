@@ -1,0 +1,75 @@
+{
+  "36c5fc35e149fb0adcbde94297dabc6c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "36a3f853850af494",
+      "status" : "passed",
+      "time" : {
+        "start" : 1550258394954,
+        "stop" : 1550258396155,
+        "duration" : 1201
+      }
+    } ]
+  },
+  "8c968858849e1f674abd1bc72030dcd0" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9b9f39cd70beb4db",
+      "status" : "broken",
+      "statusDetails" : "FileNotFoundError: [WinError 3] The system cannot find the path specified: './resources/drivers/chromedriver'",
+      "time" : { }
+    } ]
+  },
+  "50ed7977c5735eb5d349119a8fa002df" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5df7b4e19c002e1e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1550258394610,
+        "stop" : 1550258395595,
+        "duration" : 985
+      }
+    } ]
+  },
+  "341c0bf6551955c7a0bb4448f936cc43" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c8e6a9e08b4111f7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1550259274307,
+        "stop" : 1550259275331,
+        "duration" : 1024
+      }
+    } ]
+  }
+}

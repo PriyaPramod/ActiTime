@@ -1,0 +1,184 @@
+{
+  "uid" : "b5b5ef5a0b5ee90e",
+  "name" : "test_TC001_valid_login_test[Chrome]",
+  "fullName" : "test_scripts.test_verify_prodcut#test_TC001_valid_login_test[Chrome]",
+  "historyId" : "8f1dbf60a45482ec592d2c14de03b2b2",
+  "time" : {
+    "start" : 1550315317728,
+    "stop" : 1550315337921,
+    "duration" : 20193
+  },
+  "status" : "passed",
+  "flaky" : true,
+  "beforeStages" : [ {
+    "name" : "configuration",
+    "time" : {
+      "start" : 1550315285668,
+      "stop" : 1550315317726,
+      "duration" : 32058
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "enter_username",
+      "time" : {
+        "start" : 1550315317819,
+        "stop" : 1550315318748,
+        "duration" : 929
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user_name",
+        "value" : "'admin'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "enter_password",
+      "time" : {
+        "start" : 1550315318749,
+        "stop" : 1550315319147,
+        "duration" : 398
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "password",
+        "value" : "'manager'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "click_login_button",
+      "time" : {
+        "start" : 1550315319147,
+        "stop" : 1550315319492,
+        "duration" : 345
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "click_on_logout",
+      "time" : {
+        "start" : 1550315333061,
+        "stop" : 1550315337921,
+        "duration" : 4860
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "96de54622f83a259",
+      "name" : "log",
+      "source" : "96de54622f83a259.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "982882ddc30dc7d0",
+      "name" : "stdout",
+      "source" : "982882ddc30dc7d0.txt",
+      "type" : "text/plain",
+      "size" : 116
+    }, {
+      "uid" : "c159a38754f971f6",
+      "name" : "stderr",
+      "source" : "c159a38754f971f6.txt",
+      "type" : "text/plain",
+      "size" : 0
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 4
+  },
+  "afterStages" : [ {
+    "name" : "configuration::0",
+    "time" : {
+      "start" : 1550315337923,
+      "stop" : 1550315338395,
+      "duration" : 472
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "test_scripts"
+  }, {
+    "name" : "suite",
+    "value" : "test_verify_prodcut"
+  }, {
+    "name" : "host",
+    "value" : "TY-Pramod-Personal"
+  }, {
+    "name" : "thread",
+    "value" : "6304-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_scripts.test_verify_prodcut"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "configuration",
+    "value" : "'Chrome'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "2f9dfef15c9f45d1",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'SubRequest' object has no attribute 'params'",
+      "time" : { }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b5b5ef5a0b5ee90e.json",
+  "parameterValues" : [ "'Chrome'" ]
+}

@@ -1,0 +1,185 @@
+{
+  "uid" : "4d309da11478924e",
+  "name" : "test_TC001_valid_login_test",
+  "fullName" : "test_scripts.test_verify_prodcut#test_TC001_valid_login_test",
+  "historyId" : "ad086c850de7cc2bd3f3aa41a558b1c5",
+  "time" : {
+    "start" : 1550313865948,
+    "stop" : 1550313877362,
+    "duration" : 11414
+  },
+  "status" : "passed",
+  "flaky" : true,
+  "beforeStages" : [ {
+    "name" : "configuration",
+    "time" : {
+      "start" : 1550313846139,
+      "stop" : 1550313865946,
+      "duration" : 19807
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "enter_username",
+      "time" : {
+        "start" : 1550313866014,
+        "stop" : 1550313866723,
+        "duration" : 709
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user_name",
+        "value" : "'admin'"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "enter_password",
+      "time" : {
+        "start" : 1550313866723,
+        "stop" : 1550313867027,
+        "duration" : 304
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "password",
+        "value" : "'manager'"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "click_login_button",
+      "time" : {
+        "start" : 1550313867027,
+        "stop" : 1550313867248,
+        "duration" : 221
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "click_on_logout",
+      "time" : {
+        "start" : 1550313874748,
+        "stop" : 1550313877361,
+        "duration" : 2613
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "e9d889b930050058",
+      "name" : "log",
+      "source" : "e9d889b930050058.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "a6e2d828619259fa",
+      "name" : "stdout",
+      "source" : "a6e2d828619259fa.txt",
+      "type" : "text/plain",
+      "size" : 116
+    }, {
+      "uid" : "44378e20d6e8a778",
+      "name" : "stderr",
+      "source" : "44378e20d6e8a778.txt",
+      "type" : "text/plain",
+      "size" : 0
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 3
+  },
+  "afterStages" : [ {
+    "name" : "configuration::0",
+    "time" : {
+      "start" : 1550313877365,
+      "stop" : 1550313877575,
+      "duration" : 210
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "test_scripts"
+  }, {
+    "name" : "suite",
+    "value" : "test_verify_prodcut"
+  }, {
+    "name" : "host",
+    "value" : "TY-Pramod-Personal"
+  }, {
+    "name" : "thread",
+    "value" : "5888-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_scripts.test_verify_prodcut"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "ab920761630b784c",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Fail: Expected Product version is not displaying\nassert None == 'actiTIME 2019.1 Pro'",
+      "time" : {
+        "start" : 1550313682237,
+        "stop" : 1550313691552,
+        "duration" : 9315
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4d309da11478924e.json",
+  "parameterValues" : [ ]
+}

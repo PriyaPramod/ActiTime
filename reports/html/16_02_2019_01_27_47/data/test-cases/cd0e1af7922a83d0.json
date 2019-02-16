@@ -1,0 +1,164 @@
+{
+  "uid" : "cd0e1af7922a83d0",
+  "name" : "test_script_one[Chrome0]",
+  "fullName" : "test_scripts.test_sample#test_script_one[Chrome0]",
+  "historyId" : "79f485a9a1f2d9463661bcfe21356bb6",
+  "time" : {
+    "start" : 1550259552651,
+    "stop" : 1550259554430,
+    "duration" : 1779
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "configuration",
+    "time" : {
+      "start" : 1550259522023,
+      "stop" : 1550259552615,
+      "duration" : 30592
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "enter_username",
+      "time" : {
+        "start" : 1550259552651,
+        "stop" : 1550259553835,
+        "duration" : 1184
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user_name",
+        "value" : "'admin'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "enter_password",
+      "time" : {
+        "start" : 1550259553835,
+        "stop" : 1550259554107,
+        "duration" : 272
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "password",
+        "value" : "'manager'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "click_login_button",
+      "time" : {
+        "start" : 1550259554107,
+        "stop" : 1550259554426,
+        "duration" : 319
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "355dbe285ad57b51",
+      "name" : "log",
+      "source" : "355dbe285ad57b51.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "f55a340aa53dbf61",
+      "name" : "stdout",
+      "source" : "f55a340aa53dbf61.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "b5752371f3c99f73",
+      "name" : "stderr",
+      "source" : "b5752371f3c99f73.txt",
+      "type" : "text/plain",
+      "size" : 0
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 3
+  },
+  "afterStages" : [ {
+    "name" : "configuration::0",
+    "time" : {
+      "start" : 1550259554430,
+      "stop" : 1550259555289,
+      "duration" : 859
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "test_scripts"
+  }, {
+    "name" : "suite",
+    "value" : "test_sample"
+  }, {
+    "name" : "host",
+    "value" : "TY-Pramod-Personal"
+  }, {
+    "name" : "thread",
+    "value" : "14856-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_scripts.test_sample"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "configuration",
+    "value" : "'Chrome'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cd0e1af7922a83d0.json",
+  "parameterValues" : [ "'Chrome'" ]
+}

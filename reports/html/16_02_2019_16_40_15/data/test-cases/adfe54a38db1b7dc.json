@@ -1,0 +1,184 @@
+{
+  "uid" : "adfe54a38db1b7dc",
+  "name" : "test_TC001_valid_login_test",
+  "fullName" : "test_scripts.test_invalid_login#test_TC001_valid_login_test",
+  "historyId" : "48c69bf718966d843d18fac08f8c0512",
+  "time" : {
+    "start" : 1550313809391,
+    "stop" : 1550313813415,
+    "duration" : 4024
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "configuration",
+    "time" : {
+      "start" : 1550313786718,
+      "stop" : 1550313809386,
+      "duration" : 22668
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "enter_username",
+      "time" : {
+        "start" : 1550313809494,
+        "stop" : 1550313810237,
+        "duration" : 743
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user_name",
+        "value" : "'invaliduser'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "enter_password",
+      "time" : {
+        "start" : 1550313810237,
+        "stop" : 1550313810521,
+        "duration" : 284
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "password",
+        "value" : "'invalidpass'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "click_login_button",
+      "time" : {
+        "start" : 1550313810521,
+        "stop" : 1550313810737,
+        "duration" : 216
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "get_error_message",
+      "time" : {
+        "start" : 1550313810738,
+        "stop" : 1550313813415,
+        "duration" : 2677
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "97fe8be24cb53a2e",
+      "name" : "log",
+      "source" : "97fe8be24cb53a2e.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "80d4975f52bf25d",
+      "name" : "stdout",
+      "source" : "80d4975f52bf25d.txt",
+      "type" : "text/plain",
+      "size" : 157
+    }, {
+      "uid" : "92a67bc2f2995b28",
+      "name" : "stderr",
+      "source" : "92a67bc2f2995b28.txt",
+      "type" : "text/plain",
+      "size" : 0
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 4
+  },
+  "afterStages" : [ {
+    "name" : "configuration::0",
+    "time" : {
+      "start" : 1550313813416,
+      "stop" : 1550313813679,
+      "duration" : 263
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "test_scripts"
+  }, {
+    "name" : "suite",
+    "value" : "test_invalid_login"
+  }, {
+    "name" : "host",
+    "value" : "TY-Pramod-Personal"
+  }, {
+    "name" : "thread",
+    "value" : "5888-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_scripts.test_invalid_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "91b17606be7688b5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1550313606352,
+        "stop" : 1550313611257,
+        "duration" : 4905
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "adfe54a38db1b7dc.json",
+  "parameterValues" : [ ]
+}

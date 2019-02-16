@@ -1,0 +1,5 @@
+"Status","Name","Duration in ms","Description"
+"passed","test_scripts.test_verify_prodcut#test_TC001_valid_login_test","11414",""
+"passed","test_scripts.test_sample#test_script_one","1044",""
+"passed","test_scripts.test_valid_login#test_TC001_valid_login_test","11632",""
+"passed","test_scripts.test_invalid_login#test_TC001_valid_login_test","4024",""

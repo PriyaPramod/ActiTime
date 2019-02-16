@@ -1,0 +1,69 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "TY-Pramod-Personal",
+    "children" : [ {
+      "name" : "11900-MainThread",
+      "children" : [ {
+        "name" : "test_script_one[Firefox]",
+        "uid" : "9b9f39cd70beb4db",
+        "parentUid" : "3b1548355c4b79aea8ae0c79508e1d21",
+        "status" : "broken",
+        "time" : { },
+        "flaky" : true,
+        "parameters" : [ "'Firefox'" ]
+      } ],
+      "uid" : "3b1548355c4b79aea8ae0c79508e1d21"
+    }, {
+      "name" : "23604-MainThread",
+      "children" : [ {
+        "name" : "test_script_one",
+        "uid" : "36a3f853850af494",
+        "parentUid" : "8df1ef8d86074ca96de7964d4ef264f3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1550258394954,
+          "stop" : 1550258396155,
+          "duration" : 1201
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8df1ef8d86074ca96de7964d4ef264f3"
+    }, {
+      "name" : "23120-MainThread",
+      "children" : [ {
+        "name" : "test_script_one[Chrome]",
+        "uid" : "c8e6a9e08b4111f7",
+        "parentUid" : "b99f8a7a35215c42c0acf6570ec2f105",
+        "status" : "passed",
+        "time" : {
+          "start" : 1550259274307,
+          "stop" : 1550259275331,
+          "duration" : 1024
+        },
+        "flaky" : false,
+        "parameters" : [ "'Chrome'" ]
+      } ],
+      "uid" : "b99f8a7a35215c42c0acf6570ec2f105"
+    }, {
+      "name" : "23320-MainThread",
+      "children" : [ {
+        "name" : "test_script_two",
+        "uid" : "5df7b4e19c002e1e",
+        "parentUid" : "9db85032b114d107ee80b00e3ee2b2f8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1550258394610,
+          "stop" : 1550258395595,
+          "duration" : 985
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9db85032b114d107ee80b00e3ee2b2f8"
+    } ],
+    "uid" : "5c13f69d55b753c6c5217a9eaf9294e7"
+  } ]
+}

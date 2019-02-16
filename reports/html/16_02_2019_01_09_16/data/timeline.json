@@ -1,0 +1,101 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "TY-Pramod-Personal",
+    "children" : [ {
+      "name" : "11900-MainThread",
+      "children" : [ {
+        "name" : "test_script_one[Firefox]",
+        "uid" : "1763ed977c0f6ec4",
+        "parentUid" : "3b1548355c4b79aea8ae0c79508e1d21",
+        "status" : "broken",
+        "time" : { },
+        "flaky" : true,
+        "parameters" : [ "'Firefox'" ]
+      } ],
+      "uid" : "3b1548355c4b79aea8ae0c79508e1d21"
+    }, {
+      "name" : "968-MainThread",
+      "children" : [ {
+        "name" : "test_script_one[Chrome1]",
+        "uid" : "966066b61b74bf48",
+        "parentUid" : "c3c4cc47ce7d16bf42c031522021e32d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1550259553555,
+          "stop" : 1550259554994,
+          "duration" : 1439
+        },
+        "flaky" : false,
+        "parameters" : [ "'Chrome'" ]
+      } ],
+      "uid" : "c3c4cc47ce7d16bf42c031522021e32d"
+    }, {
+      "name" : "23320-MainThread",
+      "children" : [ {
+        "name" : "test_script_two",
+        "uid" : "2bd077de858debb6",
+        "parentUid" : "9db85032b114d107ee80b00e3ee2b2f8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1550258394610,
+          "stop" : 1550258395595,
+          "duration" : 985
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9db85032b114d107ee80b00e3ee2b2f8"
+    }, {
+      "name" : "23604-MainThread",
+      "children" : [ {
+        "name" : "test_script_one",
+        "uid" : "4c88e827c34f8fbc",
+        "parentUid" : "8df1ef8d86074ca96de7964d4ef264f3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1550258394954,
+          "stop" : 1550258396155,
+          "duration" : 1201
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8df1ef8d86074ca96de7964d4ef264f3"
+    }, {
+      "name" : "8540-MainThread",
+      "children" : [ {
+        "name" : "test_script_one[Chrome]",
+        "uid" : "21ddcd78299d6ca0",
+        "parentUid" : "79119c2dab93afcc601e2fa5ba12b4d4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1550259415673,
+          "stop" : 1550259416914,
+          "duration" : 1241
+        },
+        "flaky" : false,
+        "parameters" : [ "'Chrome'" ]
+      } ],
+      "uid" : "79119c2dab93afcc601e2fa5ba12b4d4"
+    }, {
+      "name" : "14856-MainThread",
+      "children" : [ {
+        "name" : "test_script_one[Chrome0]",
+        "uid" : "e1e9d41f937056bd",
+        "parentUid" : "6517e8f68bbf318f3132802e44b56898",
+        "status" : "passed",
+        "time" : {
+          "start" : 1550259552651,
+          "stop" : 1550259554430,
+          "duration" : 1779
+        },
+        "flaky" : false,
+        "parameters" : [ "'Chrome'" ]
+      } ],
+      "uid" : "6517e8f68bbf318f3132802e44b56898"
+    } ],
+    "uid" : "5c13f69d55b753c6c5217a9eaf9294e7"
+  } ]
+}

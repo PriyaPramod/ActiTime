@@ -1,0 +1,77 @@
+[ {
+  "uid" : "63a1d1a21f820058",
+  "name" : "test_TC001_valid_login_test[Firefox]",
+  "time" : { },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "892312bfe343b65",
+  "name" : "test_TC001_valid_login_test",
+  "time" : {
+    "start" : 1550313865948,
+    "stop" : 1550313877362,
+    "duration" : 11414
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "388d419108193687",
+  "name" : "test_TC001_valid_login_test[Chrome]",
+  "time" : { },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "4f37a10b8649bba4",
+  "name" : "test_TC001_valid_login_test[Chrome]",
+  "time" : { },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "b302108915d13e71",
+  "name" : "test_script_one",
+  "time" : {
+    "start" : 1550313630686,
+    "stop" : 1550313631730,
+    "duration" : 1044
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "90e7e6f3ad4365e0",
+  "name" : "test_TC001_valid_login_test[Chrome]",
+  "time" : { },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "58ebdf1549584512",
+  "name" : "test_TC001_valid_login_test[Firefox]",
+  "time" : { },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "a9fb536d80c1017e",
+  "name" : "test_TC001_valid_login_test",
+  "time" : {
+    "start" : 1550313832250,
+    "stop" : 1550313843882,
+    "duration" : 11632
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "700b63c4072fb019",
+  "name" : "test_TC001_valid_login_test",
+  "time" : {
+    "start" : 1550313809391,
+    "stop" : 1550313813415,
+    "duration" : 4024
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5e949d30b84e106c",
+  "name" : "test_TC001_valid_login_test[Firefox]",
+  "time" : { },
+  "status" : "broken",
+  "severity" : "normal"
+} ]

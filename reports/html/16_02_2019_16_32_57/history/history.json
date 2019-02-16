@@ -1,0 +1,174 @@
+{
+  "36c5fc35e149fb0adcbde94297dabc6c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b302108915d13e71",
+      "status" : "passed",
+      "time" : {
+        "start" : 1550313630686,
+        "stop" : 1550313631730,
+        "duration" : 1044
+      }
+    } ]
+  },
+  "7620a4349251d5b90565fc53a9ae660f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "90e7e6f3ad4365e0",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'SubRequest' object has no attribute 'params'",
+      "time" : { }
+    } ]
+  },
+  "8f1dbf60a45482ec592d2c14de03b2b2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "388d419108193687",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'SubRequest' object has no attribute 'params'",
+      "time" : { }
+    } ]
+  },
+  "ad086c850de7cc2bd3f3aa41a558b1c5" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "892312bfe343b65",
+      "status" : "passed",
+      "time" : {
+        "start" : 1550313865948,
+        "stop" : 1550313877362,
+        "duration" : 11414
+      }
+    } ]
+  },
+  "e412e1255b9bcec229ee4a5ee408de33" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4f37a10b8649bba4",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'SubRequest' object has no attribute 'params'",
+      "time" : { }
+    } ]
+  },
+  "8b77fc4352c3af13ce88eeb81b383819" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "58ebdf1549584512",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'SubRequest' object has no attribute 'params'",
+      "time" : { }
+    } ]
+  },
+  "eafde7ff59aa192148b7d7e194369816" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5e949d30b84e106c",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'SubRequest' object has no attribute 'params'",
+      "time" : { }
+    } ]
+  },
+  "80fcbf13e9a4bc9483a65f183c7a86a2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a9fb536d80c1017e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1550313832250,
+        "stop" : 1550313843882,
+        "duration" : 11632
+      }
+    } ]
+  },
+  "48c69bf718966d843d18fac08f8c0512" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "700b63c4072fb019",
+      "status" : "passed",
+      "time" : {
+        "start" : 1550313809391,
+        "stop" : 1550313813415,
+        "duration" : 4024
+      }
+    } ]
+  },
+  "6c1a048ce31ef3e54ba4cbe10088f211" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "63a1d1a21f820058",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'SubRequest' object has no attribute 'params'",
+      "time" : { }
+    } ]
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "uid" : "71993d89c97ec542",
+  "name" : "test_script_one",
+  "fullName" : "test_scripts.test_sample#test_script_one",
+  "historyId" : "36c5fc35e149fb0adcbde94297dabc6c",
+  "time" : {
+    "start" : 1549790015472,
+    "stop" : 1549790015473,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "configuration",
+    "time" : {
+      "start" : 1549789972794,
+      "stop" : 1549790015393,
+      "duration" : 42599
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "9b04facf6bc4bab9",
+      "name" : "log",
+      "source" : "9b04facf6bc4bab9.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "e9318933ac63c183",
+      "name" : "stdout",
+      "source" : "e9318933ac63c183.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "ef26f639542c60df",
+      "name" : "stderr",
+      "source" : "ef26f639542c60df.txt",
+      "type" : "text/plain",
+      "size" : 0
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 3
+  },
+  "afterStages" : [ {
+    "name" : "configuration::0",
+    "time" : {
+      "start" : 1549790015476,
+      "stop" : 1549790016882,
+      "duration" : 1406
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "test_scripts"
+  }, {
+    "name" : "suite",
+    "value" : "test_sample"
+  }, {
+    "name" : "host",
+    "value" : "TY-Pramod-Personal"
+  }, {
+    "name" : "thread",
+    "value" : "19264-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_scripts.test_sample"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "71993d89c97ec542.json",
+  "parameterValues" : [ ]
+}

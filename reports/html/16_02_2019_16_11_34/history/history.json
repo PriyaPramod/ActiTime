@@ -1,0 +1,79 @@
+{
+  "36c5fc35e149fb0adcbde94297dabc6c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e9792c9cddee23bf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1550313630686,
+        "stop" : 1550313631730,
+        "duration" : 1044
+      }
+    } ]
+  },
+  "ad086c850de7cc2bd3f3aa41a558b1c5" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6a294e7b46b6f4d",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Fail: Expected Product version is not displaying\nassert None == 'actiTIME 2019.1 Pro'",
+      "time" : {
+        "start" : 1550313682237,
+        "stop" : 1550313691552,
+        "duration" : 9315
+      }
+    } ]
+  },
+  "80fcbf13e9a4bc9483a65f183c7a86a2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "75517c90d1f6a649",
+      "status" : "passed",
+      "time" : {
+        "start" : 1550313652297,
+        "stop" : 1550313663263,
+        "duration" : 10966
+      }
+    } ]
+  },
+  "48c69bf718966d843d18fac08f8c0512" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "23ceaf3cd6870d6f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1550313606352,
+        "stop" : 1550313611257,
+        "duration" : 4905
+      }
+    } ]
+  }
+}

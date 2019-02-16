@@ -1,0 +1,61 @@
+[ {
+  "uid" : "517e655b254dbf39",
+  "name" : "test_script_one[Firefox]",
+  "time" : {
+    "start" : 1550259713058,
+    "stop" : 1550259714823,
+    "duration" : 1765
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bea8cf47baaafb67",
+  "name" : "test_script_one[Chrome]",
+  "time" : {
+    "start" : 1550259651239,
+    "stop" : 1550259652084,
+    "duration" : 845
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c3fe6d5ea74ba665",
+  "name" : "test_script_one",
+  "time" : {
+    "start" : 1550258394954,
+    "stop" : 1550258396155,
+    "duration" : 1201
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8a4a38852d73cf32",
+  "name" : "test_script_one[Chrome0]",
+  "time" : {
+    "start" : 1550259552651,
+    "stop" : 1550259554430,
+    "duration" : 1779
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3847e6f1ad0ef644",
+  "name" : "test_script_one[Chrome1]",
+  "time" : {
+    "start" : 1550259553555,
+    "stop" : 1550259554994,
+    "duration" : 1439
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a0cd71534edbb18b",
+  "name" : "test_script_two",
+  "time" : {
+    "start" : 1550258394610,
+    "stop" : 1550258395595,
+    "duration" : 985
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

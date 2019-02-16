@@ -1,0 +1,184 @@
+{
+  "uid" : "bfbc4b91db90fe15",
+  "name" : "test_script_one[Firefox]",
+  "fullName" : "test_scripts.test_sample#test_script_one[Firefox]",
+  "historyId" : "8c968858849e1f674abd1bc72030dcd0",
+  "time" : {
+    "start" : 1550259713058,
+    "stop" : 1550259714823,
+    "duration" : 1765
+  },
+  "status" : "passed",
+  "flaky" : true,
+  "beforeStages" : [ {
+    "name" : "configuration",
+    "time" : {
+      "start" : 1550259627995,
+      "stop" : 1550259713043,
+      "duration" : 85048
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "enter_username",
+      "time" : {
+        "start" : 1550259713058,
+        "stop" : 1550259713714,
+        "duration" : 656
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user_name",
+        "value" : "'admin'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "enter_password",
+      "time" : {
+        "start" : 1550259713714,
+        "stop" : 1550259714214,
+        "duration" : 500
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "password",
+        "value" : "'manager'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "click_login_button",
+      "time" : {
+        "start" : 1550259714214,
+        "stop" : 1550259714823,
+        "duration" : 609
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "e50b3035f11ea247",
+      "name" : "log",
+      "source" : "e50b3035f11ea247.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "4e471b51f38124f6",
+      "name" : "stdout",
+      "source" : "4e471b51f38124f6.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "c7dbb370db8ce97f",
+      "name" : "stderr",
+      "source" : "c7dbb370db8ce97f.txt",
+      "type" : "text/plain",
+      "size" : 0
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 3
+  },
+  "afterStages" : [ {
+    "name" : "configuration::0",
+    "time" : {
+      "start" : 1550259714823,
+      "stop" : 1550259719156,
+      "duration" : 4333
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "test_scripts"
+  }, {
+    "name" : "suite",
+    "value" : "test_sample"
+  }, {
+    "name" : "host",
+    "value" : "TY-Pramod-Personal"
+  }, {
+    "name" : "thread",
+    "value" : "21876-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_scripts.test_sample"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "configuration",
+    "value" : "'Firefox'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "63bfd2644e076c39",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: permission denied",
+      "time" : { }
+    }, {
+      "uid" : "1d96db094acf591",
+      "status" : "broken",
+      "statusDetails" : "FileNotFoundError: [WinError 3] The system cannot find the path specified: './resources/drivers/geckodriver'",
+      "time" : { }
+    }, {
+      "uid" : "a102a484557f6b0e",
+      "status" : "broken",
+      "statusDetails" : "FileNotFoundError: [WinError 3] The system cannot find the path specified: './resources/drivers/geckodriver'",
+      "time" : { }
+    }, {
+      "uid" : "6e9dfb3022629b12",
+      "status" : "broken",
+      "statusDetails" : "FileNotFoundError: [WinError 3] The system cannot find the path specified: './resources/drivers/chromedriver'",
+      "time" : { }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bfbc4b91db90fe15.json",
+  "parameterValues" : [ "'Firefox'" ]
+}

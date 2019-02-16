@@ -1,0 +1,21 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "FileNotFoundError: [WinError 3] The system cannot find the path specified: './resources/drivers/chromedriver'",
+      "children" : [ {
+        "name" : "test_script_one[Firefox]",
+        "uid" : "9b9f39cd70beb4db",
+        "parentUid" : "88a3da2c89d7902c7afba21c86b3722c",
+        "status" : "broken",
+        "time" : { },
+        "flaky" : true,
+        "parameters" : [ "'Firefox'" ]
+      } ],
+      "uid" : "88a3da2c89d7902c7afba21c86b3722c"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

@@ -1,0 +1,104 @@
+{
+  "uid" : "90e7e6f3ad4365e0",
+  "name" : "test_TC001_valid_login_test[Chrome]",
+  "fullName" : "test_scripts.test_valid_login#test_TC001_valid_login_test[Chrome]",
+  "historyId" : "7620a4349251d5b90565fc53a9ae660f",
+  "time" : { },
+  "status" : "broken",
+  "statusMessage" : "AttributeError: 'SubRequest' object has no attribute 'params'",
+  "statusTrace" : "request = <SubRequest 'configuration' for <Function test_TC001_valid_login_test[Chrome]>>\n\n    @pytest.fixture(scope=\"function\", params=[\"Chrome\", \"Firefox\"], autouse=True)\n    def configuration(request):\n        web_driver = None\n        url = excel.get_cell_value(constants.EXCEL_PATH, \"BrowserSetting\", 0, \"URL\")\n>       if request.params==\"Chrome\":\nE       AttributeError: 'SubRequest' object has no attribute 'params'\n\nconftest.py:29: AttributeError",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "configuration",
+    "time" : {
+      "start" : 1550314976888,
+      "stop" : 1550314976907,
+      "duration" : 19
+    },
+    "status" : "broken",
+    "statusMessage" : "AttributeError: 'SubRequest' object has no attribute 'params'\n",
+    "statusTrace" : "  File \"C:\\Users\\PriyaPramod\\AppData\\Local\\Programs\\Python\\Python36-32\\lib\\site-packages\\pluggy\\callers.py\", line 187, in _multicall\n    res = hook_impl.function(*args)\n  File \"C:\\Users\\PriyaPramod\\AppData\\Local\\Programs\\Python\\Python36-32\\lib\\site-packages\\_pytest\\fixtures.py\", line 929, in pytest_fixture_setup\n    result = call_fixture_func(fixturefunc, request, kwargs)\n  File \"C:\\Users\\PriyaPramod\\AppData\\Local\\Programs\\Python\\Python36-32\\lib\\site-packages\\_pytest\\fixtures.py\", line 784, in call_fixture_func\n    res = next(it)\n  File \"D:\\AutomationDevelopment\\ActiTime\\conftest.py\", line 29, in configuration\n    if request.params==\"Chrome\":\n",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "AttributeError: 'SubRequest' object has no attribute 'params'",
+    "statusTrace" : "request = <SubRequest 'configuration' for <Function test_TC001_valid_login_test[Chrome]>>\n\n    @pytest.fixture(scope=\"function\", params=[\"Chrome\", \"Firefox\"], autouse=True)\n    def configuration(request):\n        web_driver = None\n        url = excel.get_cell_value(constants.EXCEL_PATH, \"BrowserSetting\", 0, \"URL\")\n>       if request.params==\"Chrome\":\nE       AttributeError: 'SubRequest' object has no attribute 'params'\n\nconftest.py:29: AttributeError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "3173da05c7cab717",
+      "name" : "log",
+      "source" : "3173da05c7cab717.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "568808f3edb6d346",
+      "name" : "stdout",
+      "source" : "568808f3edb6d346.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "f3096af0aaa2d27a",
+      "name" : "stderr",
+      "source" : "f3096af0aaa2d27a.txt",
+      "type" : "text/plain",
+      "size" : 0
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 3,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "test_scripts"
+  }, {
+    "name" : "suite",
+    "value" : "test_valid_login"
+  }, {
+    "name" : "host",
+    "value" : "TY-Pramod-Personal"
+  }, {
+    "name" : "thread",
+    "value" : "4000-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_scripts.test_valid_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "configuration",
+    "value" : "'Chrome'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "90e7e6f3ad4365e0.json",
+  "parameterValues" : [ "'Chrome'" ]
+}

@@ -1,0 +1,186 @@
+{
+  "uid" : "737e1418a4185927",
+  "name" : "test_script_one",
+  "fullName" : "test_scripts.test_sample#test_script_one",
+  "historyId" : "36c5fc35e149fb0adcbde94297dabc6c",
+  "time" : {
+    "start" : 1550258238625,
+    "stop" : 1550258240268,
+    "duration" : 1643
+  },
+  "status" : "passed",
+  "flaky" : true,
+  "beforeStages" : [ {
+    "name" : "configuration",
+    "time" : {
+      "start" : 1550258199293,
+      "stop" : 1550258238493,
+      "duration" : 39200
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "enter_username",
+      "time" : {
+        "start" : 1550258238625,
+        "stop" : 1550258239488,
+        "duration" : 863
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user_name",
+        "value" : "'admin'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "enter_password",
+      "time" : {
+        "start" : 1550258239492,
+        "stop" : 1550258239858,
+        "duration" : 366
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "password",
+        "value" : "'manager'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "click_login_button",
+      "time" : {
+        "start" : 1550258239858,
+        "stop" : 1550258240268,
+        "duration" : 410
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "9651135987cc5a8",
+      "name" : "log",
+      "source" : "9651135987cc5a8.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "ec8a49b1596b7b82",
+      "name" : "stdout",
+      "source" : "ec8a49b1596b7b82.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "de74749f8a932426",
+      "name" : "stderr",
+      "source" : "de74749f8a932426.txt",
+      "type" : "text/plain",
+      "size" : 0
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 3,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "configuration::0",
+    "time" : {
+      "start" : 1550258240268,
+      "stop" : 1550258242791,
+      "duration" : 2523
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "test_scripts"
+  }, {
+    "name" : "suite",
+    "value" : "test_sample"
+  }, {
+    "name" : "host",
+    "value" : "TY-Pramod-Personal"
+  }, {
+    "name" : "thread",
+    "value" : "19216-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_scripts.test_sample"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "8c709346a6b48a29",
+      "status" : "passed",
+      "time" : {
+        "start" : 1549902686219,
+        "stop" : 1549902687362,
+        "duration" : 1143
+      }
+    }, {
+      "uid" : "324fd2f0142f0df8",
+      "status" : "broken",
+      "statusDetails" : "TypeError: find_element() argument after * must be an iterable, not WebElement",
+      "time" : {
+        "start" : 1549902543104,
+        "stop" : 1549902546295,
+        "duration" : 3191
+      }
+    }, {
+      "uid" : "bddd536b82b62082",
+      "status" : "passed",
+      "time" : {
+        "start" : 1549790015472,
+        "stop" : 1549790015473,
+        "duration" : 1
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "737e1418a4185927.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,37 @@
+[ {
+  "uid" : "eaf30d8a54ac2838",
+  "name" : "test_script_one[Chrome]",
+  "time" : {
+    "start" : 1550259415673,
+    "stop" : 1550259416914,
+    "duration" : 1241
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ec613acd74a90f5",
+  "name" : "test_script_two",
+  "time" : {
+    "start" : 1550258394610,
+    "stop" : 1550258395595,
+    "duration" : 985
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d33a548099c9ea7c",
+  "name" : "test_script_one[Firefox]",
+  "time" : { },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "3819211011248cab",
+  "name" : "test_script_one",
+  "time" : {
+    "start" : 1550258394954,
+    "stop" : 1550258396155,
+    "duration" : 1201
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

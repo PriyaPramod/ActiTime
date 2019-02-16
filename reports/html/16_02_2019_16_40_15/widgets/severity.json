@@ -1,0 +1,101 @@
+[ {
+  "uid" : "a0aad936043ed1c4",
+  "name" : "test_script_one",
+  "time" : {
+    "start" : 1550313630686,
+    "stop" : 1550313631730,
+    "duration" : 1044
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9c11816c7171fe1b",
+  "name" : "test_TC001_valid_login_test[Firefox]",
+  "time" : {
+    "start" : 1550315386306,
+    "stop" : 1550315410860,
+    "duration" : 24554
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b5b5ef5a0b5ee90e",
+  "name" : "test_TC001_valid_login_test[Chrome]",
+  "time" : {
+    "start" : 1550315317728,
+    "stop" : 1550315337921,
+    "duration" : 20193
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ab3d6e077b3791ce",
+  "name" : "test_TC001_valid_login_test[Chrome]",
+  "time" : {
+    "start" : 1550315257680,
+    "stop" : 1550315283775,
+    "duration" : 26095
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8bcbbbdff2ac603",
+  "name" : "test_TC001_valid_login_test[Chrome]",
+  "time" : {
+    "start" : 1550315227770,
+    "stop" : 1550315232919,
+    "duration" : 5149
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d537b4875d80d44",
+  "name" : "test_TC001_valid_login_test",
+  "time" : {
+    "start" : 1550313832250,
+    "stop" : 1550313843882,
+    "duration" : 11632
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6247aca56f68e3d",
+  "name" : "test_TC001_valid_login_test",
+  "time" : {
+    "start" : 1550313865948,
+    "stop" : 1550313877362,
+    "duration" : 11414
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "adfe54a38db1b7dc",
+  "name" : "test_TC001_valid_login_test",
+  "time" : {
+    "start" : 1550313809391,
+    "stop" : 1550313813415,
+    "duration" : 4024
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e685b10a39ad607f",
+  "name" : "test_TC001_valid_login_test[Firefox]",
+  "time" : {
+    "start" : 1550315386304,
+    "stop" : 1550315406823,
+    "duration" : 20519
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "70c0c6948f3586c3",
+  "name" : "test_TC001_valid_login_test[Firefox]",
+  "time" : {
+    "start" : 1550315319449,
+    "stop" : 1550315333040,
+    "duration" : 13591
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

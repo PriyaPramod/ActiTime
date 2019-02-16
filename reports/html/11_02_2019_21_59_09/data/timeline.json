@@ -1,0 +1,25 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "TY-Pramod-Personal",
+    "children" : [ {
+      "name" : "11156-MainThread",
+      "children" : [ {
+        "name" : "test_script_one",
+        "uid" : "56a36ad207b9c09f",
+        "parentUid" : "585ecd20b480d746475607a62d61353c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1549902543104,
+          "stop" : 1549902546295,
+          "duration" : 3191
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "585ecd20b480d746475607a62d61353c"
+    } ],
+    "uid" : "5c13f69d55b753c6c5217a9eaf9294e7"
+  } ]
+}

@@ -1,0 +1,11 @@
+[ {
+  "uid" : "737e1418a4185927",
+  "name" : "test_script_one",
+  "time" : {
+    "start" : 1550258238625,
+    "stop" : 1550258240268,
+    "duration" : 1643
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

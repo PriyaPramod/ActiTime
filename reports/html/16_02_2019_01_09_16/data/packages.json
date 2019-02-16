@@ -1,0 +1,77 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "test_scripts.test_sample",
+    "children" : [ {
+      "name" : "test_script_one[Firefox]",
+      "uid" : "1763ed977c0f6ec4",
+      "parentUid" : "a79e142673ad19b468648166b1ad55f4",
+      "status" : "broken",
+      "time" : { },
+      "flaky" : true,
+      "parameters" : [ "'Firefox'" ]
+    }, {
+      "name" : "test_script_two",
+      "uid" : "2bd077de858debb6",
+      "parentUid" : "a79e142673ad19b468648166b1ad55f4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1550258394610,
+        "stop" : 1550258395595,
+        "duration" : 985
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_script_one",
+      "uid" : "4c88e827c34f8fbc",
+      "parentUid" : "a79e142673ad19b468648166b1ad55f4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1550258394954,
+        "stop" : 1550258396155,
+        "duration" : 1201
+      },
+      "flaky" : true,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_script_one[Chrome]",
+      "uid" : "21ddcd78299d6ca0",
+      "parentUid" : "a79e142673ad19b468648166b1ad55f4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1550259415673,
+        "stop" : 1550259416914,
+        "duration" : 1241
+      },
+      "flaky" : false,
+      "parameters" : [ "'Chrome'" ]
+    }, {
+      "name" : "test_script_one[Chrome0]",
+      "uid" : "e1e9d41f937056bd",
+      "parentUid" : "a79e142673ad19b468648166b1ad55f4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1550259552651,
+        "stop" : 1550259554430,
+        "duration" : 1779
+      },
+      "flaky" : false,
+      "parameters" : [ "'Chrome'" ]
+    }, {
+      "name" : "test_script_one[Chrome1]",
+      "uid" : "966066b61b74bf48",
+      "parentUid" : "a79e142673ad19b468648166b1ad55f4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1550259553555,
+        "stop" : 1550259554994,
+        "duration" : 1439
+      },
+      "flaky" : false,
+      "parameters" : [ "'Chrome'" ]
+    } ],
+    "uid" : "test_scripts.test_sample"
+  } ]
+}

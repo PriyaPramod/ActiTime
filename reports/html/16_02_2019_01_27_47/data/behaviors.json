@@ -1,0 +1,77 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "test_script_two",
+    "uid" : "a9e73eaa5e30b0f1",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1550258394610,
+      "stop" : 1550258395595,
+      "duration" : 985
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_script_one",
+    "uid" : "2f21757fee83cb0f",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1550258394954,
+      "stop" : 1550258396155,
+      "duration" : 1201
+    },
+    "flaky" : true,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_script_one[Chrome0]",
+    "uid" : "cd0e1af7922a83d0",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1550259552651,
+      "stop" : 1550259554430,
+      "duration" : 1779
+    },
+    "flaky" : false,
+    "parameters" : [ "'Chrome'" ]
+  }, {
+    "name" : "test_script_one[Chrome1]",
+    "uid" : "82dc280b3e90a2fb",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1550259553555,
+      "stop" : 1550259554994,
+      "duration" : 1439
+    },
+    "flaky" : false,
+    "parameters" : [ "'Chrome'" ]
+  }, {
+    "name" : "test_script_one[Firefox]",
+    "uid" : "bfbc4b91db90fe15",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1550259713058,
+      "stop" : 1550259714823,
+      "duration" : 1765
+    },
+    "flaky" : true,
+    "parameters" : [ "'Firefox'" ]
+  }, {
+    "name" : "test_script_one[Chrome]",
+    "uid" : "6e3812b02cbc21d1",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1550260645335,
+      "stop" : 1550260654442,
+      "duration" : 9107
+    },
+    "flaky" : false,
+    "parameters" : [ "'Chrome'" ]
+  } ]
+}

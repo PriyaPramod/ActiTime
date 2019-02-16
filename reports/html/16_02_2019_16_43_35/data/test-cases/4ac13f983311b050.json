@@ -1,0 +1,169 @@
+{
+  "uid" : "4ac13f983311b050",
+  "name" : "test_TC001_valid_login_test",
+  "fullName" : "test_scripts.test_verify_prodcut#test_TC001_valid_login_test",
+  "historyId" : "ad086c850de7cc2bd3f3aa41a558b1c5",
+  "time" : {
+    "start" : 1550313682237,
+    "stop" : 1550313691552,
+    "duration" : 9315
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: Fail: Expected Product version is not displaying\nassert None == 'actiTIME 2019.1 Pro'",
+  "statusTrace" : "request = <FixtureRequest for <Function test_TC001_valid_login_test>>\n\n    def test_TC001_valid_login_test(request):\n        username = excel.get_cell_value(constants.EXCEL_PATH, \"Login\", 2, \"UserName\")\n        password = excel.get_cell_value(constants.EXCEL_PATH, \"Login\", 2, \"Password\")\n        expected_product_verion = excel.get_cell_value(constants.EXCEL_PATH, \"Login\", 2, \"Expected_Result\")\n    \n        l = LoginPage(request.node.driver)\n        l.enter_username(username)\n        l.enter_password(password)\n        l.click_login_button()\n        h = HomePage(request.node.driver)\n        h.click_on_help_menu()\n        h.click_on_about_menu_item()\n        actual_product_version = h.get_product_version()\n    \n>       assert actual_product_version == expected_product_verion, \"Fail: Expected Product version is not displaying\"\nE       AssertionError: Fail: Expected Product version is not displaying\nE       assert None == 'actiTIME 2019.1 Pro'\n\ntest_scripts\\test_verify_prodcut.py:21: AssertionError",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "configuration",
+    "time" : {
+      "start" : 1550313663511,
+      "stop" : 1550313682235,
+      "duration" : 18724
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: Fail: Expected Product version is not displaying\nassert None == 'actiTIME 2019.1 Pro'",
+    "statusTrace" : "request = <FixtureRequest for <Function test_TC001_valid_login_test>>\n\n    def test_TC001_valid_login_test(request):\n        username = excel.get_cell_value(constants.EXCEL_PATH, \"Login\", 2, \"UserName\")\n        password = excel.get_cell_value(constants.EXCEL_PATH, \"Login\", 2, \"Password\")\n        expected_product_verion = excel.get_cell_value(constants.EXCEL_PATH, \"Login\", 2, \"Expected_Result\")\n    \n        l = LoginPage(request.node.driver)\n        l.enter_username(username)\n        l.enter_password(password)\n        l.click_login_button()\n        h = HomePage(request.node.driver)\n        h.click_on_help_menu()\n        h.click_on_about_menu_item()\n        actual_product_version = h.get_product_version()\n    \n>       assert actual_product_version == expected_product_verion, \"Fail: Expected Product version is not displaying\"\nE       AssertionError: Fail: Expected Product version is not displaying\nE       assert None == 'actiTIME 2019.1 Pro'\n\ntest_scripts\\test_verify_prodcut.py:21: AssertionError",
+    "steps" : [ {
+      "name" : "enter_username",
+      "time" : {
+        "start" : 1550313682297,
+        "stop" : 1550313682827,
+        "duration" : 530
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user_name",
+        "value" : "'admin'"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "enter_password",
+      "time" : {
+        "start" : 1550313682827,
+        "stop" : 1550313683071,
+        "duration" : 244
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "password",
+        "value" : "'manager'"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "click_login_button",
+      "time" : {
+        "start" : 1550313683072,
+        "stop" : 1550313683293,
+        "duration" : 221
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "3ca7db304764d656",
+      "name" : "log",
+      "source" : "3ca7db304764d656.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "c424904d18de28c3",
+      "name" : "stdout",
+      "source" : "c424904d18de28c3.txt",
+      "type" : "text/plain",
+      "size" : 116
+    }, {
+      "uid" : "619b4c007a7ca531",
+      "name" : "stderr",
+      "source" : "619b4c007a7ca531.txt",
+      "type" : "text/plain",
+      "size" : 0
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "hasContent" : true,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 3
+  },
+  "afterStages" : [ {
+    "name" : "configuration::0",
+    "time" : {
+      "start" : 1550313691992,
+      "stop" : 1550313694686,
+      "duration" : 2694
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "81a7fcda0bce0265",
+      "name" : "test_TC001_valid_login_test",
+      "source" : "81a7fcda0bce0265.png",
+      "type" : "image/png",
+      "size" : 97913
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "test_scripts"
+  }, {
+    "name" : "suite",
+    "value" : "test_verify_prodcut"
+  }, {
+    "name" : "host",
+    "value" : "TY-Pramod-Personal"
+  }, {
+    "name" : "thread",
+    "value" : "7392-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_scripts.test_verify_prodcut"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4ac13f983311b050.json",
+  "parameterValues" : [ ]
+}
